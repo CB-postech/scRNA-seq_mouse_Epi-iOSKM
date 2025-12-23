@@ -6,8 +6,8 @@
 
 set.seed(1234)
 # Load data ---------------------------------------------------------------
-daniel.ife <- readRDS("./rds/2024/0311/daniel_ife.rds")
-skin2.ife <- readRDS("./rds/2024/0325/skin2_ife-oskm.rds")
+daniel.ife <- readRDS("./rds/daniel_ife.rds")
+skin2.ife <- readRDS("./rds/skin2_ife-oskm.rds")
 
 
 
@@ -96,6 +96,7 @@ skin <- skin %>%
   NormalizeData() %>% 
   FindVariableFeatures() %>% 
   ScaleData()
+
 
 
 
