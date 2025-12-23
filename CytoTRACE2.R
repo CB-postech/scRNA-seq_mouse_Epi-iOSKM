@@ -10,8 +10,8 @@ library("CytoTRACE2")
 
 
 # Load data ---------------------------------------------------------------
-skin1.ife <- readRDS("./rds/2024/0415/skin1_ife.rds")
-skin2.ife <- readRDS("./rds/2024/0415/skin2_ife.rds")
+skin1.ife <- readRDS("./rds/skin1_ife.rds")
+skin2.ife <- readRDS("./rds/skin2_ife.rds")
 
 
 
